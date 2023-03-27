@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation:wght@500&family=Ubuntu:ital,wght@1,300&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
+.h1 {
+  display: inline-block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+  background-color: black;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+.about {
+  color: white;
+  transition-duration: 0.4s;
+}
+nav ul li {
+  padding-left: 10px;
+}
+
+.brand img {
+  width: 59px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: Alkatra;
+  display: flex;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/463/26/328/look-mask-musician-alan-walker-alan-walker-hd-wallpaper-preview.jpg");
+  background-size: contain;
+}
+
+.bottom {
+  position: sticky;
+  height: 140px;
+  background-color: black;
+  color: aliceblue;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myProgressBar {
+  width: 80vw;
+  color: rgb(249, 250, 250);
+  cursor: pointer;
+}
+
+.icons {
+  color: white;
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+  margin: 0px 20px;
+}
+
+.songitemcontainer {
+  margin-top: 30px;
+  width: 65%;
+}
+
+.songitem {
+  height: 55px;
+  display: inline-flex;
+  background-color: grey;
+  color: black;
+  width: 50%;
+  margin: 5px px;
+  justify-content: space-between;
+  border-radius: 30px;
+  text-align: left;
+  font-size: large;
+}
+
+.m {
+  padding-right: 15%;
+  padding-top: 10px;
+}
+
+.songitem img {
+  margin-right: 10%;
+  border-radius: 34px;
+  margin-left: 0px;
+}
+
+.timestamp {
+  margin: 0px 5px;
+  padding-top: 10px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songinfo img {
+  /*--opacity: 0;
+  transition: opacity 1s ease-in;--*/
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign {
+  color: white;
+  background-color: black;
+  width: 30%;
+  font-size: larger;
+  height: 100px;
+}
+
+.insta {
+  width: 10%;
+}

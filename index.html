@@ -8,31 +8,154 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <nav class="header">
       <ul class="nav-ul">
         <li class="brand">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/991px-Spotify_icon.svg.png"
-            width="10%"
+            src="https://pbs.twimg.com/profile_images/1202508794594562049/zBFOSM99_400x400.jpg"
+            width="50%"
           />
           Yupify
         </li>
         <li>Home</li>
-        <li>About</li>
+        <li class="about">
+          <a
+            class="about"
+            style="text-decoration: none"
+            href="https://www.spotify.com/us/about-us/contact/"
+            target="_blank"
+            >About Us</a
+          >
+        </li>
       </ul>
+      <!--<div class="insta">
+        <button>
+          <a class="sign" style="text-decoration: none" href="Sign Up"
+            ><i
+              class="fa-solid fa-arrow-right-to-bracket"
+              style="color: #f9fafb"
+            ></i
+          ></a>
+        </button>
+      </div>-->
     </nav>
 
     <div class="container">
-      <h1>Best of Anuv Jain</h1>
-      <div class="songlist"></div>
+      <div class="songlist">
+        <h1>Best of Alan Walker</h1>
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/d/da/Alan_Walker_-_Faded.png"
+              alt="5%"
+            />
+            <span class="m"
+              ><span>Faded</span>
+              <span class="Songlistplay"
+                ><span class="timestamp"
+                  >03:33<i
+                    class="fa-regular fa-circle-play"
+                    style="color: #01080f"
+                  ></i></span></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/a/af/Alan_Walker_-_On_My_Way.png"
+              alt="5%"
+            />
+            <span class="m"
+              ><span>On My Way</span>
+              <span class="Songlistplay"
+                ><span class="timestamp"
+                  >03:13<i
+                    class="fa-regular fa-circle-play"
+                    style="color: #01080f"
+                  ></i></span></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/b/ba/Alan_Walker_-_Alone.png"
+              alt="5%"
+            />
+            <span class="m"
+              ><span>Alone</span>
+              <span class="Songlistplay"
+                ><span class="timestamp"
+                  >02:40<i
+                    class="fa-regular fa-circle-play"
+                    style="color: #01080f"
+                  ></i></span></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/2/22/Alan_Walker_and_Ava_Max_-_Alone%2C_Pt._II.png"
+              alt="5%"
+            />
+            <span class="m"
+              ><span>Alone,Pt.2</span>
+              <span class="Songlistplay"
+                ><span class="timestamp"
+                  >02:59<i
+                    class="fa-regular fa-circle-play"
+                    style="color: #01080f"
+                  ></i></span></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/b/ba/Darkside_by_Alan_Walker.png"
+              alt="5%"
+            />
+            <span class="m"
+              ><span>Darkside</span>
+              <span class="Songlistplay"
+                ><span class="timestamp"
+                  >03:32<i
+                    class="fa-regular fa-circle-play"
+                    style="color: #01080f"
+                  ></i></span></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/4/45/Alan_Walker_Play.jpg"
+              alt="5%"
+            />
+            <span class="m"
+              ><span>Play</span>
+              <span class="Songlistplay"
+                ><span class="timestamp"
+                  >02:47<i
+                    class="fa-regular fa-circle-play"
+                    style="color: #01080f"
+                  ></i></span></span
+            ></span>
+          </div>
+        </div>
+      </div>
       <div class="songBanner"></div>
     </div>
-
     <div class="bottom">
       <input type="range" name="range" id="myProgressBar" min="0" max="100" />
-    <div class="icons">
-      <!--fontawesome icons-->
+      <div class="icons">
+        <i class="fa-solid fa-3x fa-backward-step" style="color: #f8f9fc"></i>
+        <i class="fa-regular fa-3x fa-circle-play" style="color: #f5f7f9"></i>
+        <i class="fa-solid fa-3x fa-forward-step" style="color: #f7f7f8"></i>
+      </div>
+      <div class="songinfo">
+        <img
+          src="https://media.tenor.com/_ghn0Sr3fh0AAAAC/music.gif"
+          width="100px"
+        />
+      </div>
     </div>
-    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a57304f68d.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
