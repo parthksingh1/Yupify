@@ -31,6 +31,12 @@ nav {
   color: white;
   transition-duration: 0.4s;
 }
+
+.Home {
+  color: white;
+  transition-duration: 0.4s;
+}
+
 nav ul li {
   padding-left: 10px;
 }
