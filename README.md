@@ -72,6 +72,6 @@ This project is licensed under the [Part Kumar Singh](LICENSE).
 
 ## 📧 Contact
 
-If you have any questions, suggestions, or feedback, please feel free to reach out to us at [your-parthksingh1@gmail.com](mailto:parthksingh1@gmail.com).
+If you have any questions, suggestions, or feedback, please feel free to reach out to us at [parthksingh1@gmail.com](mailto:parthksingh1@gmail.com).
 
 ---
